@@ -4,20 +4,6 @@ A hands‑on, project‑driven repository designed to reinforce key concepts fro
 
 ---
 
-## 🧭 Table of Contents
-
-1. [Overview](#overview)  
-2. [Curriculum Structure](#curriculum-structure)  
-3. [Prerequisites](#prerequisites)  
-4. [Installation & Setup](#installation--setup)  
-5. [Usage](#usage)  
-6. [Project Highlights](#project-highlights)  
-7. [Learning Resources](#learning-resources)  
-8. [Contributing](#contributing)  
-9. [License](#license)  
-
----
-
 ## 📘 Overview
 
 This repository is designed to complement advanced coursework in data science, blending theory with applied, real-world projects. Ideal for students, self-learners, and professionals who want structured practice across:
@@ -35,3 +21,31 @@ This repository is designed to complement advanced coursework in data science, b
 
 Directories are organized by module or subject. Each typically contains:
 
+
+> _You can adjust this to reflect your actual folder and notebook names._
+
+---
+
+## ✅ Prerequisites
+
+- Python ≥ 3.8  
+- Jupyter Notebook or JupyterLab  
+
+---
+
+## 📦 Dependencies
+
+Install the required Python packages via:
+
+``bash
+pip install -r requirements.txt
+
+Typical Libraries used:
+
+- numpy
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+- tensorflow or pytorch
+- nltk, spacy
