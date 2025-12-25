@@ -17,19 +17,11 @@ This repository is designed to complement advanced coursework in data science, b
 
 ---
 
-## 🧱 Curriculum Structure
-
-Directories are organized by module or subject. Each typically contains:
-
-
-> _You can adjust this to reflect your actual folder and notebook names._
-
----
-
 ## ✅ Prerequisites
 
 - Python ≥ 3.8  
-- Jupyter Notebook or JupyterLab  
+- Jupyter Notebook or JupyterLab
+- SQL (MySQL utilized throughout degree)
 
 ---
 
@@ -37,7 +29,7 @@ Directories are organized by module or subject. Each typically contains:
 
 Install the required Python packages via:
 
-``bash
+``bash``
 pip install -r requirements.txt
 
 Typical Libraries used:
