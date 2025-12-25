@@ -1,0 +1,152 @@
+# Final Database Design and Implementation
+**SQL Database Project**  
+Repository: `Rifat_Khan_CP_FinalDB`  
+Part of: `Data_Science_Masters` portfolio
+
+## Overview
+
+This project implements a fully functioning **relational database** using SQL. It demonstrates the complete database design lifecycle from conceptual modeling to physical implementation. The work includes a **physical ER diagram**, **table definitions (DDL)**, and **data manipulation scripts (DML)** to populate and manage the database.
+
+The primary goals of this project are to:
+- Design a normalized relational schema
+- Visualize the database structure with a physical ER diagram
+- Create database tables with appropriate constraints
+- Populate sample data using DML
+- Validate the schema and data with basic queries
+
+## Repository Structure
+
+Rifat_Khan_CP_FinalDB/
+│
+├── diagrams/
+│ └── physical_er_diagram.png
+│
+├── ddl/
+│ ├── create_tables.sql
+│ └── constraints.sql
+│
+├── dml/
+│ ├── insert_data.sql
+│ └── update_delete.sql
+│
+├── queries/
+│ └── validation_queries.sql
+│
+└── README.md
+
+### Directory Descriptions
+
+- **diagrams/**: Contains the physical ER diagram visualizing tables, relationships, keys, and cardinalities.
+- **ddl/**: SQL scripts that define the database structure (tables, primary/foreign keys, constraints).
+- **dml/**: SQL scripts to insert, update, and delete records for testing and demonstration.
+- **queries/**: Custom queries used to validate the database design and demonstrate usage.
+
+## Physical ER Diagram
+
+A physical Entity Relationship Diagram (ERD) was created to define the schema, relationships, and constraints across entities.  
+(Replace the file path below with the actual diagram path in this repo.)
+
+![Physical ER Diagram](./diagrams/physical_er_diagram.png)
+
+This diagram helps visualize:
+- Entities and their attributes
+- Primary and foreign keys
+- One-to-many and many-to-many relationships
+
+## Data Definition Language (DDL)
+
+The DDL scripts define the structure of the database. They include:
+
+```sql
+-- Example snippet
+CREATE TABLE Customer (
+    customer_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100) UNIQUE,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+Key features in DDL:
+
+- Primary and foreign keys 
+- NOT NULL and UNIQUE constraints
+- Referential integrity enforcement
+
+Location:
+/ddl/create_tables.sql  
+/ddl/constraints.sql
+
+Data Manipulation Language (DML)
+
+DML scripts handle the data content of the database:
+-- Example snippet
+INSERT INTO Customer (customer_id, first_name, last_name, email)
+VALUES (1, 'Alice', 'Smith', 'alice.smith@example.com');
+
+Scripts in this section:
+
+- Insert initial sample data
+- Update records
+- Delete test data
+
+How to Set Up and Run
+
+Follow these steps to set up the database on your local system:
+
+Clone the repository
+
+git clone https://github.com/rifatkhan-main/Data_Science_Masters.git
+cd Data_Science_Masters/Rifat_Khan_CP_FinalDB
+
+Create the database and schema
+
+- Open your SQL client (MySQL Workbench, pgAdmin, etc.)
+- Run the DDL scripts in the ddl/ folder
+
+SOURCE ddl/create_tables.sql;
+SOURCE ddl/constraints.sql;
+
+
+Populate data
+
+- Execute the DML insert scripts
+SOURCE dml/insert_data.sql;
+
+
+Run validation queries
+
+- Use the scripts in queries/validation_queries.sql to check data and referential structure.
+
+Usage Example
+
+After setup, you can run queries to explore the database:
+
+-- Retrieve all customers
+SELECT * FROM Customer;
+
+-- Join orders with customers
+SELECT c.first_name, c.last_name, o.order_date
+FROM Customer c
+JOIN Orders o ON c.customer_id = o.customer_id;
+
+Key Features
+
+- Well-defined relational schema with constraints
+- Normalized design
+- Sample data insertion and updates
+- Demonstration queries for validation and exploration
+
+Future Enhancements
+
+Potential additions include:
+
+- Stored procedures and triggers
+- View definitions for reporting
+- Indexes for performance optimization
+- Integration with analytics or BI tools
+
+Credits
+
+Author: Rifat Khan
+Part of academic portfolio and data science skills showcase
