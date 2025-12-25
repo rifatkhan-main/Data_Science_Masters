@@ -1,0 +1,101 @@
+id,date,shelter_name,city,state,total_capacity,occupied_beds,available_beds,occupancy_rate,average_age,male_percentage,female_percentage,season,notes
+1,2023-10-05,Sunrise Shelter,Dallas,TX,85,62,23,72.9,19,43,57,Spring,High demand
+2,2023-08-01,Safe Haven,Dallas,TX,128,117,11,91.4,58,45,55,Summer,No issues reported
+3,2025-04-27,Second Chance,San Jose,CA,190,144,46,75.8,56,52,48,Summer,Excellent condition
+4,2024-10-05,Harbor Home,San Jose,CA,115,7,108,6.1,63,48,52,Autumn,Needs maintenance
+5,2024-09-15,Harbor Home,San Antonio,TX,155,65,90,41.9,21,48,52,Summer,No issues reported
+6,2023-09-29,Harbor Home,San Jose,CA,81,61,20,75.3,41,51,49,Autumn,No issues reported
+7,2025-06-04,Safe Haven,Phoenix,AZ,261,108,153,41.4,26,44,56,Spring,High demand
+8,2023-11-09,Sunrise Shelter,Houston,TX,105,83,22,79,51,52,48,Autumn,Under inspection
+9,2025-07-09,Safe Haven,Houston,TX,241,179,62,74.3,21,67,33,Spring,High demand
+10,2024-02-16,Pathway Place,San Diego,CA,181,96,85,53,24,56,44,Spring,No issues reported
+11,2024-02-27,Recovery Residence,Houston,TX,152,134,18,88.2,54,61,39,Summer,High demand
+12,2024-04-10,Harbor Home,Chicago,IL,270,147,123,54.4,37,63,37,Spring,Needs maintenance
+13,2024-11-06,HomeSafe,Dallas,TX,96,29,67,30.2,47,66,34,Winter,Overcrowded
+14,2024-08-18,Hope House,San Diego,CA,183,3,180,1.6,22,50,50,Autumn,Under inspection
+15,2024-05-02,Harbor Home,Chicago,IL,55,26,29,47.3,44,62,38,Spring,Needs maintenance
+16,2025-01-27,Recovery Residence,New York,NY,53,41,12,77.4,39,59,41,Autumn,Staff shortage
+17,2023-08-03,Safe Haven,Dallas,TX,300,170,130,56.7,61,50,50,Spring,Excellent condition
+18,2023-11-22,Sunrise Shelter,Houston,TX,72,54,18,75,55,63,37,Summer,High demand
+19,2024-08-24,Harbor Home,Philadelphia,PA,149,141,8,94.6,45,48,52,Autumn,Excellent condition
+20,2023-12-21,Sunrise Shelter,San Antonio,TX,189,112,77,59.3,38,65,35,Summer,Staff shortage
+21,2024-11-26,HomeSafe,Philadelphia,PA,181,47,134,26,32,48,52,Spring,Needs maintenance
+22,2023-08-30,Recovery Residence,Chicago,IL,242,69,173,28.5,47,53,47,Winter,Overcrowded
+23,2024-06-08,HomeSafe,San Jose,CA,271,271,0,100,30,44,56,Autumn,Recently renovated
+24,2024-04-10,New Beginnings,Chicago,IL,78,68,10,87.2,32,47,53,Autumn,No issues reported
+25,2025-03-26,Shelter Plus,Dallas,TX,197,191,6,97,47,69,31,Autumn,High demand
+26,2025-06-10,Recovery Residence,Phoenix,AZ,208,118,90,56.7,21,44,56,Spring,Overcrowded
+27,2024-10-26,Second Chance,Phoenix,AZ,151,96,55,63.6,27,54,46,Winter,
+28,2024-10-20,Harbor Home,Phoenix,AZ,251,206,45,82.1,47,44,56,Autumn,Under inspection
+29,2025-02-07,Recovery Residence,San Jose,CA,91,15,76,16.5,62,66,34,Autumn,
+30,2025-07-17,Pathway Place,Phoenix,AZ,210,55,155,26.2,38,41,59,Summer,Under inspection
+31,2024-07-08,Safe Haven,San Diego,CA,80,33,47,41.2,30,61,39,Autumn,Under inspection
+32,2025-02-08,HomeSafe,San Antonio,TX,198,88,110,44.4,21,60,40,Summer,Under inspection
+33,2024-06-24,Sunrise Shelter,Chicago,IL,158,37,121,23.4,50,45,55,Summer,Under inspection
+34,2024-07-07,Hope House,Dallas,TX,57,33,24,57.9,64,59,41,Autumn,Staff shortage
+35,2025-02-09,HomeSafe,Houston,TX,115,64,51,55.7,31,53,47,Spring,High demand
+36,2025-07-14,New Beginnings,San Jose,CA,60,12,48,20,31,51,49,Summer,High demand
+37,2025-07-10,Pathway Place,Chicago,IL,298,233,65,78.2,36,41,59,Summer,
+38,2023-12-23,Harbor Home,Chicago,IL,300,8,292,2.7,45,63,37,Autumn,Under inspection
+39,2025-04-27,Harbor Home,San Antonio,TX,267,42,225,15.7,45,48,52,Spring,Overcrowded
+40,2025-05-29,Recovery Residence,New York,NY,286,202,84,70.6,20,51,49,Spring,
+41,2023-09-24,Pathway Place,San Diego,CA,73,33,40,45.2,25,40,60,Summer,Needs maintenance
+42,2025-01-27,Second Chance,Dallas,TX,106,25,81,23.6,30,44,56,Spring,Staff shortage
+43,2024-07-26,Shelter Plus,Houston,TX,217,70,147,32.3,60,43,57,Autumn,Excellent condition
+44,2025-04-19,New Beginnings,Los Angeles,CA,153,100,53,65.4,60,42,58,Spring,
+45,2024-08-14,HomeSafe,San Jose,CA,155,100,55,64.5,28,68,32,Spring,Overcrowded
+46,2024-10-06,Pathway Place,San Antonio,TX,199,189,10,95,58,60,40,Spring,Under inspection
+47,2024-06-08,Second Chance,Chicago,IL,265,236,29,89.1,49,58,42,Summer,High demand
+48,2024-11-25,Hope House,Dallas,TX,128,54,74,42.2,44,66,34,Winter,
+49,2025-01-30,Recovery Residence,Phoenix,AZ,85,37,48,43.5,43,42,58,Winter,
+50,2024-07-30,Pathway Place,San Jose,CA,254,55,199,21.7,45,57,43,Autumn,Recently renovated
+51,2024-09-27,Sunrise Shelter,San Diego,CA,188,167,21,88.8,53,58,42,Autumn,Excellent condition
+52,2023-11-22,Shelter Plus,Houston,TX,158,37,121,23.4,63,55,45,Spring,No issues reported
+53,2024-02-18,Safe Haven,Phoenix,AZ,281,240,41,85.4,45,59,41,Winter,No issues reported
+54,2024-04-27,Safe Haven,San Diego,CA,295,170,125,57.6,42,68,32,Autumn,Needs maintenance
+55,2024-06-07,Sunrise Shelter,San Diego,CA,294,62,232,21.1,55,65,35,Summer,No issues reported
+56,2024-07-08,Harbor Home,New York,NY,83,12,71,14.5,18,70,30,Summer,Recently renovated
+57,2025-03-08,Sunrise Shelter,Philadelphia,PA,232,74,158,31.9,24,70,30,Spring,Recently renovated
+58,2024-04-06,Recovery Residence,Phoenix,AZ,106,8,98,7.5,50,56,44,Spring,Overcrowded
+59,2024-01-04,Safe Haven,Phoenix,AZ,293,236,57,80.5,30,66,34,Winter,High demand
+60,2025-03-16,New Beginnings,Chicago,IL,205,106,99,51.7,36,50,50,Spring,Recently renovated
+61,2025-04-02,HomeSafe,Los Angeles,CA,189,84,105,44.4,57,58,42,Summer,
+62,2024-06-10,Recovery Residence,Phoenix,AZ,273,266,7,97.4,63,52,48,Autumn,High demand
+63,2025-06-18,Hope House,San Antonio,TX,226,98,128,43.4,22,45,55,Autumn,High demand
+64,2025-03-12,Safe Haven,Houston,TX,110,5,105,4.5,41,53,47,Winter,Under inspection
+65,2023-07-31,Safe Haven,Los Angeles,CA,71,2,69,2.8,55,59,41,Spring,High demand
+66,2025-07-04,HomeSafe,San Jose,CA,300,224,76,74.7,34,56,44,Autumn,Recently renovated
+67,2025-07-24,Hope House,San Diego,CA,218,53,165,24.3,38,52,48,Summer,Under inspection
+68,2025-02-14,Shelter Plus,Phoenix,AZ,184,165,19,89.7,48,58,42,Autumn,Needs maintenance
+69,2023-12-29,Recovery Residence,Chicago,IL,169,148,21,87.6,19,55,45,Summer,No issues reported
+70,2024-04-06,New Beginnings,Phoenix,AZ,239,131,108,54.8,65,58,42,Summer,Excellent condition
+71,2025-02-11,Hope House,Chicago,IL,135,17,118,12.6,60,70,30,Spring,Excellent condition
+72,2025-04-16,New Beginnings,San Diego,CA,110,78,32,70.9,44,52,48,Summer,Under inspection
+73,2025-03-24,Recovery Residence,San Diego,CA,287,274,13,95.5,51,50,50,Autumn,No issues reported
+74,2024-04-13,Harbor Home,Chicago,IL,216,36,180,16.7,22,49,51,Summer,Staff shortage
+75,2024-04-13,New Beginnings,Phoenix,AZ,60,47,13,78.3,33,66,34,Summer,Needs maintenance
+76,2024-05-25,Hope House,Houston,TX,113,46,67,40.7,37,67,33,Summer,Under inspection
+77,2025-07-29,HomeSafe,Los Angeles,CA,298,93,205,31.2,18,47,53,Winter,Recently renovated
+78,2024-06-11,Hope House,Dallas,TX,152,90,62,59.2,21,63,37,Spring,Needs maintenance
+79,2025-04-14,Sunrise Shelter,Los Angeles,CA,257,131,126,51,23,44,56,Winter,No issues reported
+80,2023-10-14,Hope House,Houston,TX,288,142,146,49.3,25,46,54,Winter,High demand
+81,2024-12-27,Second Chance,New York,NY,186,127,59,68.3,23,56,44,Autumn,Excellent condition
+82,2024-06-15,Hope House,Philadelphia,PA,147,81,66,55.1,32,56,44,Spring,High demand
+83,2023-09-27,New Beginnings,New York,NY,116,101,15,87.1,48,52,48,Spring,Staff shortage
+84,2023-12-24,Harbor Home,Houston,TX,104,7,97,6.7,31,56,44,Spring,Overcrowded
+85,2024-02-17,Harbor Home,Houston,TX,217,76,141,35,43,43,57,Spring,Needs maintenance
+86,2023-11-06,Sunrise Shelter,San Jose,CA,97,34,63,35.1,23,68,32,Spring,Staff shortage
+87,2023-07-30,Sunrise Shelter,Los Angeles,CA,145,102,43,70.3,28,46,54,Spring,High demand
+88,2024-03-13,Sunrise Shelter,Houston,TX,207,38,169,18.4,47,53,47,Summer,Under inspection
+89,2024-07-10,Hope House,Philadelphia,PA,76,19,57,25,22,66,34,Spring,Under inspection
+90,2024-04-12,Second Chance,San Diego,CA,97,63,34,64.9,60,49,51,Spring,Excellent condition
+91,2023-08-18,Safe Haven,New York,NY,82,22,60,26.8,24,62,38,Summer,Excellent condition
+92,2024-04-08,HomeSafe,Los Angeles,CA,252,159,93,63.1,48,56,44,Summer,High demand
+93,2025-05-06,New Beginnings,Dallas,TX,209,148,61,70.8,54,41,59,Winter,Recently renovated
+94,2025-01-24,Hope House,Chicago,IL,263,13,250,4.9,29,45,55,Summer,
+95,2023-09-16,Recovery Residence,Los Angeles,CA,246,54,192,22,31,70,30,Autumn,
+96,2025-01-19,Sunrise Shelter,Houston,TX,176,163,13,92.6,43,49,51,Autumn,Under inspection
+97,2024-03-03,Hope House,Chicago,IL,236,208,28,88.1,58,68,32,Winter,High demand
+98,2025-02-20,Recovery Residence,Chicago,IL,241,89,152,36.9,43,59,41,Spring,Recently renovated
+99,2024-03-14,Safe Haven,New York,NY,63,31,32,49.2,40,42,58,Summer,Overcrowded
+100,2025-03-14,Hope House,Houston,TX,205,83,122,40.5,36,65,35,Autumn,Staff shortage
