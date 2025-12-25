@@ -39,5 +39,5 @@ Typical Libraries used:
 - scikit-learn
 - matplotlib
 - seaborn
-- tensorflow or pytorch
-- nltk, spacy
+- pytorch
+- pyspark
