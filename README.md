@@ -1,4 +1,4 @@
-# 🎓 Data Science Masters
+# 🎓 Masters of Data Science
 
 A hands‑on, project‑driven repository designed to reinforce key concepts from a data science master's curriculum.
 
